@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scholarscribe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><img src="./images/chlg.png" class="logo">
+        <nav class="navbar">
+            <div id="nav-close" class="fas fa-times"></div>
+            <a href="#home">Expert</a>
+            <a href="#category">Service</a>
+            <a href="#packages">Samples</a>
+            <a href="blogsite.html">Blog</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div> 
+            <div id="search-btn" class="fas fa-search"></div>
+          
+        </div>
+    </header>
+
+    <div class="search-form">
+        <div id="close-search" class="fas fa-times"></div>
+        <form action="">
+        <input type="search" name="" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        </form>
+    </div>
+
+    <section class="home" id="home">
+   
+        <div class="wrapper">
+           
+                <div class="box" style="background: url(images/home1.jpg) no-repeat;">
+                <div class="content">
+                    <span>This is</span>
+                    <h3>Scholarscribe</h3>
+                    <p>Grades up...... Stress Down...</p>
+                    <a href="#category" class="btn">get started</a>
+                </div>
+                </div>  
+        </div>
+    </section>
+
+    <section class="category" id="category">
+
+        <h1 class="heading">Blogs</h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <img src="images/category-1.jpg" alt="">
+                <h3>Neural Network</h3>
+                
+                <p>My Halloween decorations are staying in the box this year. To be honest, they didn’t make it out of the box last year either. </p>
+                <a href="" class="btn">read more</a>
+            </div>
+    
+            <div class="box">
+                <img src="images/category-2.jpg" alt="">
+                <h3>Data science</h3>
+                <p>My Halloween decorations are staying in the box this year. To be honest, they didn’t make it out of the box last year either. </p>
+                
+                <a href="" class="btn">read more</a>
+            </div>
+    
+            <div class="box">
+                <img src="images/category-3.jpg" alt="">
+                <h3>Cryptography</h3>
+                <p>Paisa dub gaya</p>
+                
+                <a href="" class="btn">read more</a>
+            </div>
+    
+        </div>
+    
+    </section>
+    <section class="packages" id="packages">
+
+        <h1 class="heading">Services</h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/image-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Service 1</h3>
+                    <p>Assignment</p>
+                    <div class="price">Fast work</div>
+                    <a href="#contact" class="btn">explore now</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/image-2.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Service 2</h3>
+                    <p>PPTS</p>
+                    <div class="price"> 100% efficient </div>
+                    <a href="#contact" class="btn">explore now</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/img-3.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Service 3</h3>
+                    <p>Pdfs</p>
+                    <div class="price">Efficient way </div>
+                    <a href="#contact" class="btn">explore now</a>
+                </div>
+            </div>
+            
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/img-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Service 4</h3>
+                    <p>Coding Assignment</p>
+                    <div class="price"></div>
+                    <a href="#contact" class="btn">explore now</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/img5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Service 5</h3>
+                    <p>Web D</p>
+                    <div class="price">Great design</div>
+                    <a href="#contact" class="btn">explore now</a>
+                </div>
+                <center>
+                    <h1 class="heading" style="vertical-align: middle;";"> Large Machinery</h1>
+                    </center>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/img6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Service 6</h3>
+                    <p>Graphic design</p>
+                    <div class="price">Cleaning is important!</div>
+                    <a href="#contact" class="btn">explore now</a>
+                </div>
+            </div>
+    
+        </div>
+    
+    </section>
+    <section class="contact" id="contact">
+    
+    <div class="wrapper1">
+        <div class="title1">
+          <h1>contact us form</h1>
+        </div>
+        <div class="contact-form">
+            <form action="webform.php" method="POST" enctype="multipart/form-data" autocomplete="off">
+          <div class="input-fields">
+            
+            <input type="text" class="input" placeholder="Name" name="name">
+            <input type="email" class="input" placeholder="Email Address" name="email" pattern=".+@gmail\.com">
+            <input type="phone" class="input" placeholder="Phone" name="phone">
+            <input type="text" class="input" placeholder="Subject" name="subject">
+          </div>
+          <div class="msg">
+            <textarea placeholder="Message" name="message"></textarea>
+            <div class="btn1"><button type="submit" value="Send" class="btn">Submit</div>
+            </form>
+          </div>
+        </div>
+        <div class="container1">
+            <input type="file" id="file-input" name="upload[]" multiple="" required>
+            <label class="input" for="file-input">
+                <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                &nbsp; Choose Files To Upload
+            </label>
+        </div> 
+    
+    </section>
+    <section class="footer">
+
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="#home">home</a>    
+                <a href="#packages">Blogs</a>
+                <a href="#query">Services</a>
+            </div>
+    
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#contact">ask questions</a>
+                <a href="#">terms of use</a>
+                <a href="#">privacy policy</a>
+            </div>
+    
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="tel:+916283274245"> <i class="fas fa-phone"></i> +91 000000000 </a>
+                <a href="mailto: 564pranoy@gmail.com@gmail.com"> <i class="fas fa-envelope"></i> infoscholarscribe@gmail.com </a>
+                <a href="#"> <i class="fas fa-map"></i> Address </a>
+            </div>
+    
+            <div class="box">
+                <h3>follow us</h3>
+                <a href=""> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href=""> <i class="fab fa-instagram"></i> instagram </a>
+                <a href=""> <i class="fab fa-linkedin"></i> linkedin </a>
+            </div>
+        </div>
+        <div class="credit">©Scholarscribe |All rights reserved!</div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
